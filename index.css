@@ -1,3 +1,27 @@
-#parent {
-    color: red;
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.headerContainer {
+    display: flex;
+    border: 1px solid black;
+
+
+
+}
+
+.listContainer {
+    place-content: center space-between;
+    padding-left: 60%;
+    margin: 1px;
+    display: flex;
+    font-size: 25px;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 }
